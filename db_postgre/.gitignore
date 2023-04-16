@@ -1,0 +1,28 @@
+node_modules
+
+.terraform/*
+
+#state files
+
+*.tfstate
+*.tfstate.*
+
+#log files
+
+*.log
+
+#sensitive data
+
+*.tfvars
+*.tfvars.json
+
+#key
+/.ssh
+*.kp
+*.pub
+id_rsa.pub
+id_rsa
+id_dsa.pub
+id_dsa
+*.pem
+*.key
